@@ -3,69 +3,39 @@ toc: false
 ---
 
 <div class="hero">
-  <h1>🌀 PortalJS <span style="color: var(--theme-foreground)">Data App</span></h1>
-  <h2>Welcome to your new data app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
-  <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
+  <h1>🇨🇦 Canada Economic Data <span style="color: var(--theme-foreground)">Visualization</span></h1>
+  <h2>British Columbia regional economic indicators and employment trends</h2>
 </div>
 
-<div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "Your awesomeness over time 🚀",
-      subtitle: "Up and to the right!",
-      width,
-      y: {grid: true, label: "Awesomeness"},
-      marks: [
-        Plot.ruleY([0]),
-        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
-      ]
-    }))
-  }</div>
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "How big are penguins, anyway? 🐧",
-      width,
-      grid: true,
-      x: {label: "Body mass (g)"},
-      y: {label: "Flipper length (mm)"},
-      color: {legend: true},
-      marks: [
-        Plot.linearRegressionY(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species"}),
-        Plot.dot(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species", tip: true})
-      ]
-    }))
-  }</div>
+<div class="grid grid-cols-2" style="margin: 2rem 0;">
+  <div class="card" style="padding: 1.5rem;">
+    <h3 style="margin-top: 0;">Clean Technology Sector - BC</h3>
+    <p style="font-size: 0.9rem; color: var(--theme-foreground-muted);">Employment trends in environmental and clean technology products across British Columbia (2012-2023)</p>
+    <a href="./clean-technology-bc" style="display: inline-block; margin-top: 0.5rem;">View Dashboard →</a>
+  </div>
+  <div class="card" style="padding: 1.5rem;">
+    <h3 style="margin-top: 0;">Vancouver Island & Coast</h3>
+    <p style="font-size: 0.9rem; color: var(--theme-foreground-muted);">Regional unemployment rate trends compared to BC and Canada (Aug-Dec 2024)</p>
+    <a href="./vancouver-island-economy" style="display: inline-block; margin-top: 0.5rem;">View Dashboard →</a>
+  </div>
 </div>
 
 ---
 
-## Next steps
+## About This Project
 
-Here are some ideas of things you could try…
+This visualization project provides interactive dashboards for analyzing economic data from British Columbia, Canada. The data is sourced from Statistics Canada and focuses on employment trends, clean technology sectors, and regional unemployment rates.
 
-<div class="grid grid-cols-4">
-  <div class="card">
-    Chart your own data using <a href="https://observablehq.com/framework/lib/plot"><code>Plot</code></a> and <a href="https://observablehq.com/framework/files"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript#resize(render)"><code>resize</code></a>.
-  </div>
-  <div class="card">
-    Create a <a href="https://observablehq.com/framework/project-structure">new page</a> by adding a Markdown file (<code>whatever.md</code>) to the <code>src</code> folder.
-  </div>
-  <div class="card">
-    Add a drop-down menu using <a href="https://observablehq.com/framework/inputs/select"><code>Inputs.select</code></a> and use it to filter the data shown in a chart.
-  </div>
-  <div class="card">
-    Write a <a href="https://observablehq.com/framework/loaders">data loader</a> that queries a local database or API, generating a data snapshot on build.
-  </div>
-  <div class="card">
-    Import a <a href="https://observablehq.com/framework/imports">recommended library</a> from npm, such as <a href="https://observablehq.com/framework/lib/leaflet">Leaflet</a>, <a href="https://observablehq.com/framework/lib/dot">GraphViz</a>, <a href="https://observablehq.com/framework/lib/tex">TeX</a>, or <a href="https://observablehq.com/framework/lib/duckdb">DuckDB</a>.
-  </div>
-  <div class="card">
-    Ask for help, or share your work or ideas, on our <a href="https://github.com/observablehq/framework/discussions">GitHub discussions</a>.
-  </div>
-  <div class="card">
-    Visit <a href="https://github.com/observablehq/framework">Framework on GitHub</a> and give us a star. Or file an issue if you’ve found a bug!
-  </div>
-</div>
+### Data Sources
+
+- **Statistics Canada Table 36-10-0681-01**: Environmental and clean technology products economic account - Employment and compensation per products category
+- **Statistics Canada Table 14-10-0387-01**: Labour force characteristics by economic region, three-month moving average
+
+### Key Features
+
+- **Interactive Filters**: Use dropdown menus to explore data across different time periods
+- **Comparative Analysis**: View regional data compared to provincial and national averages
+- **Responsive Design**: Dashboards adapt to different screen sizes for optimal viewing
 
 <style>
 
