@@ -1,0 +1,46 @@
+﻿"Environmental and Clean Technology Products Economic Account, employment and compensation per products category c 1 2 3 4 5 6"
+"Frequency: Annual"
+"Table: 36-10-0681-01"
+"Release date: 2024-12-20"
+"Geography: Canada, Province or territory"
+""
+""
+
+"Geography","Canada",,,,,,,,,,,
+"Economic variable","Employment",,,,,,,,,,,
+"Goods and services (products)","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"
+,"Jobs",,,,,,,,,,,
+"Total, environmental and clean technology products","270,752","276,801","286,276","313,250","308,346","312,120","325,405","322,781","296,596","325,567","339,740p","354,257p"
+"Total, environmental products","111,008","111,696","112,677","117,478","122,939","124,024","127,944","126,497","113,663","119,589","121,691p","130,227p"
+"Environmental goods 7","75,374","73,584","73,976","75,288","77,317","77,278","78,899","77,258","69,019","71,600","72,963p","78,838p"
+"Environmental services 8","35,634","38,112","38,701","42,190","45,622","46,746","49,045","49,239","44,644","47,988","48,728p","51,389p"
+"Total, clean technology products","159,744","165,104","173,599","195,772","185,407","188,096","197,461","196,284","182,933","205,978","218,049p","224,030p"
+"Clean technology goods 9","22,199","23,483","21,280","27,786","23,087","28,449","31,772","30,601","28,460","31,889","31,906p","31,783p"
+"Clean technology services 10","137,545","141,621","152,319","167,987","162,320","159,647","165,689","165,683","154,474","174,089","186,143p","192,247p"
+
+Symbol legend:
+p, preliminary
+
+
+"Table Corrections:"
+Date,Note
+"2023-03-02","On March 3rd, 2023, the described unit of measure for Average annual compensation of employees was corrected and changed to dollars. Previously, the unit of measure was mentioned as jobs in the table."
+
+
+
+Footnotes:
+1,"Job estimates reported per industry are available in table 36-10-0632-01."
+2,"Does not include self-employment."
+3,"This account provides estimates on environmental and clean technology goods and services. Examples of those goods and services are listed in the technical reference guide available <a href="https://www150.statcan.gc.ca/n1/pub/16-511-x/16-511-x2024001-eng.htm" rel="external noopener noreferrer" target="_blank">here (opens new window)</a>."
+4,"Totals may not add due to rounding. Not all members add up to total."
+5,"Source: Statistics Canada, Environment Accounts and Statistics Division, National Economic Accounts Division."
+6,"This table uses the product classification of the Supply-Use tables. The Supply-Use tables are built around three classification systems: the Input-Output Industry Classification (IOIC), the Supply-Use Product Classification (SUPC) and the Input-Output Final Demand Classification (IOFDC). The Supply-Use Product Classification (SUPC) is based on the North American Product Classification System (NAPCS)."
+7,"Includes clean electricity (from nuclear and renewable sources), biofuels, waste and scrap goods, and primary goods."
+8,"Includes waste management and remediation services."
+9,"Includes manufactured goods."
+10,"Includes scientific, construction and support services."
+
+
+
+"How to cite: Statistics Canada. Table 36-10-0681-01  Environmental and Clean Technology Products Economic Account, employment and compensation per products category"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101

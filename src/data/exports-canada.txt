@@ -1,0 +1,24 @@
+Total exports (total, all chapters), top 15 trade partners, Canada — August 2025
+
+Country	Total exports ($)
+United States	42903854336
+United Kingdom	3215752367
+China	2351624069
+Japan	1060987417
+Mexico	728906915
+Germany	657267544
+Netherlands	653528743
+Korea, South	498048263
+Hong Kong	485904205
+France	388583995
+Italy	387349718
+Belgium	291657440
+Brazil	285923274
+India	267093151
+Australia	253269996
+Other countries	3646437247
+
+
+How to cite: Statistics Canada. Canadian International Merchandise Trade Web Application
+https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2021004-eng.htm
+Accessed date: 2025-11-06
