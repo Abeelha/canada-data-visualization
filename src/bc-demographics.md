@@ -3,9 +3,15 @@ title: BC & Vancouver Demographics - 2021 Census
 toc: false
 ---
 
-# British Columbia & Vancouver Demographics
-
-2021 Census of Population - Comparing BC Province and Vancouver City
+<div style="display: flex; justify-content: space-between; align-items: start; gap: 2rem; margin-bottom: 2rem;">
+  <div>
+    <h1 style="margin: 0 0 0.5rem 0;">British Columbia & Vancouver Demographics</h1>
+    <p style="margin: 0; color: var(--theme-foreground-muted);">2021 Census of Population - Comparing BC Province and Vancouver City</p>
+  </div>
+  <div class="note" style="text-align: right; font-size: 0.875rem; min-width: 300px;">
+    <strong>Data source:</strong> <a href="https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm" target="_blank">Statistics Canada 2021 Census of Population</a> - Demographic and housing characteristics for British Columbia and Vancouver City
+  </div>
+</div>
 
 ```js
 const bcCensusRaw = FileAttachment("data/census-bc-cleaned.csv").csv({typed: true});
@@ -171,10 +177,6 @@ const dwellingData = dwellingTypes.flatMap(type => {
   </div>
 </div>
 
-<div class="note">
-**Data source:** <a href="https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm" target="_blank">Statistics Canada 2021 Census of Population</a> - Demographic and housing characteristics for British Columbia and Vancouver City
-</div>
-
 ```js
 function createAgeDistributionChart(width) {
   const isMobile = width < 640;
@@ -195,8 +197,7 @@ function createAgeDistributionChart(width) {
     },
     y: {
       label: "Population (%)",
-      grid: true,
-      domain: [0, 25]
+      grid: true
     },
     color: {
       domain: ["British Columbia", "Vancouver"],

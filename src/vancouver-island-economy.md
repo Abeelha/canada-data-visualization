@@ -109,7 +109,9 @@ const viCanadaDiff = currentVIRate - currentCanadaRate;
 ```js
 function createUnemploymentChart(width) {
   const isMobile = width < 640;
-  const filteredData = allData.filter(d => d.monthIndex <= selectedMonthIndex);
+  const filteredData = allData
+    .filter(d => d.monthIndex <= selectedMonthIndex)
+    .sort((a, b) => a.monthIndex - b.monthIndex);
 
   return Plot.plot({
     width,
@@ -123,7 +125,8 @@ function createUnemploymentChart(width) {
     },
     x: {
       label: "Month",
-      grid: false
+      grid: false,
+      domain: monthLabels.slice(0, selectedMonthIndex + 1)
     },
     y: {
       label: "Unemployment Rate (%)",
@@ -139,6 +142,7 @@ function createUnemploymentChart(width) {
       Plot.line(filteredData, {
         x: "month",
         y: "rate",
+        z: "region",
         stroke: "region",
         strokeWidth: 2.5,
         curve: "catmull-rom"
