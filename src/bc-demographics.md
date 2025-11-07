@@ -43,35 +43,44 @@ const bcAvgHouseholdSize = getValue(bcData, "Household and dwelling characterist
 const vancouverAvgHouseholdSize = getValue(vancouverData, "Household and dwelling characteristics", "Average household size");
 
 // Income
-const bcMedianIncome = getValue(bcData, "Income of individuals in 2020", "Median total income in 2020 among recipients ($)");
-const vancouverMedianIncome = getValue(vancouverData, "Income of individuals in 2020", "Median total income in 2020 among recipients ($)");
+const bcMedianIncome = getValue(bcData, "Income of individuals in 2020", "    Median total income in 2020 among recipients ($)");
+const vancouverMedianIncome = getValue(vancouverData, "Income of individuals in 2020", "    Median total income in 2020 among recipients ($)");
 
 // Build age distribution data
 const ageGroups = [
-  "0 to 14 years",
-  "15 to 19 years",
-  "20 to 24 years",
-  "25 to 29 years",
-  "30 to 34 years",
-  "35 to 39 years",
-  "40 to 44 years",
-  "45 to 49 years",
-  "50 to 54 years",
-  "55 to 59 years",
-  "60 to 64 years",
-  "65 years and over"
+  { name: "0 to 14 years", spaces: 2 },
+  { name: "15 to 19 years", spaces: 4 },
+  { name: "20 to 24 years", spaces: 4 },
+  { name: "25 to 29 years", spaces: 4 },
+  { name: "30 to 34 years", spaces: 4 },
+  { name: "35 to 39 years", spaces: 4 },
+  { name: "40 to 44 years", spaces: 4 },
+  { name: "45 to 49 years", spaces: 4 },
+  { name: "50 to 54 years", spaces: 4 },
+  { name: "55 to 59 years", spaces: 4 },
+  { name: "60 to 64 years", spaces: 4 },
+  { name: "65 years and over", spaces: 2 }
 ];
 
-const ageDistribution = ageGroups.map(group => {
-  const bcCount = getValue(bcData, "Age characteristics", `  ${group}`);
-  const vancouverCount = getValue(vancouverData, "Age characteristics", `  ${group}`);
+const ageDistribution = ageGroups.flatMap(groupObj => {
+  const indent = " ".repeat(groupObj.spaces);
+  const bcCount = getValue(bcData, "Age characteristics", `${indent}${groupObj.name}`);
+  const vancouverCount = getValue(vancouverData, "Age characteristics", `${indent}${groupObj.name}`);
 
-  return {
-    ageGroup: group.replace(" years", "").replace("  ", ""),
-    bcPercent: (bcCount / bcPopulation) * 100,
-    vancouverPercent: (vancouverCount / vancouverPopulation) * 100,
-    region: "Comparison"
-  };
+  const cleanName = groupObj.name.replace(" years", "");
+
+  return [
+    {
+      ageGroup: cleanName,
+      percent: (bcCount / bcPopulation) * 100,
+      region: "British Columbia"
+    },
+    {
+      ageGroup: cleanName,
+      percent: (vancouverCount / vancouverPopulation) * 100,
+      region: "Vancouver"
+    }
+  ];
 });
 
 // Dwelling types
@@ -170,21 +179,6 @@ const dwellingData = dwellingTypes.flatMap(type => {
 function createAgeDistributionChart(width) {
   const isMobile = width < 640;
 
-  // Create data in format for grouped bar chart
-  const chartData = [];
-  ageDistribution.forEach(d => {
-    chartData.push({
-      ageGroup: d.ageGroup,
-      percent: d.bcPercent,
-      region: "British Columbia"
-    });
-    chartData.push({
-      ageGroup: d.ageGroup,
-      percent: d.vancouverPercent,
-      region: "Vancouver"
-    });
-  });
-
   return Plot.plot({
     width,
     height: isMobile ? 300 : 350,
@@ -210,7 +204,7 @@ function createAgeDistributionChart(width) {
       legend: true
     },
     marks: [
-      Plot.barY(chartData, {
+      Plot.barY(ageDistribution, {
         x: "ageGroup",
         y: "percent",
         fill: "region",

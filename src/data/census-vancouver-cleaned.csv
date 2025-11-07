@@ -1,201 +1,201 @@
-"Topic","Characteristic","Note","Total","Total_Flag","Men+","Men+_Flag","Women+","Women+_Flag","Total","Total_Flag","Men+","Men+_Flag","Women+","Women+_Flag",
-"Population and dwellings","Population, 2021",1,662248,"",,"...",,"...",,"...",,"...",,"...",
-"Population and dwellings","Population, 2016",1,631486,"",,"...",,"...",,"...",,"...",,"...",
-"Population and dwellings","Population percentage change, 2016 to 2021",,    4.9,"",,"...",,"...",    4.9,"",,"...",,"...",
-"Population and dwellings","Total private dwellings",2,328347,"",,"...",,"...",,"...",,"...",,"...",
-"Population and dwellings","Private dwellings occupied by usual residents",3,305336,"",,"...",,"...",,"...",,"...",,"...",
-"Population and dwellings","Population density per square kilometre",, 5749.9,"",,"...",,"...", 5749.9,"",,"...",,"...",
-"Population and dwellings","Land area in square kilometres",,  115.18,"",,"...",,"...",,"...",,"...",,"...",
-"Age characteristics","Total - Age groups of the population - 100% data",,662250,"",324570,"",337675,"",  100.0,"",  100.0,"",  100.0,"",
-"Age characteristics","  0 to 14 years",, 70570,"", 36595,"", 33980,"",   10.7,"",   11.3,"",   10.1,"",
-"Age characteristics","    0 to 4 years",, 23840,"", 12170,"", 11670,"",    3.6,"",    3.7,"",    3.5,"",
-"Age characteristics","    5 to 9 years",, 23070,"", 12140,"", 10930,"",    3.5,"",    3.7,"",    3.2,"",
-"Age characteristics","    10 to 14 years",, 23660,"", 12280,"", 11380,"",    3.6,"",    3.8,"",    3.4,"",
-"Age characteristics","  15 to 64 years",,478960,"",236425,"",242535,"",   72.3,"",   72.8,"",   71.8,"",
-"Age characteristics","    15 to 19 years",, 26315,"", 13645,"", 12670,"",    4.0,"",    4.2,"",    3.8,"",
-"Age characteristics","    20 to 24 years",, 43290,"", 21135,"", 22155,"",    6.5,"",    6.5,"",    6.6,"",
-"Age characteristics","    25 to 29 years",, 67155,"", 32785,"", 34375,"",   10.1,"",   10.1,"",   10.2,"",
-"Age characteristics","    30 to 34 years",, 69225,"", 34580,"", 34640,"",   10.5,"",   10.7,"",   10.3,"",
-"Age characteristics","    35 to 39 years",, 57330,"", 29065,"", 28270,"",    8.7,"",    9.0,"",    8.4,"",
-"Age characteristics","    40 to 44 years",, 45075,"", 22380,"", 22695,"",    6.8,"",    6.9,"",    6.7,"",
-"Age characteristics","    45 to 49 years",, 42045,"", 20055,"", 21990,"",    6.3,"",    6.2,"",    6.5,"",
-"Age characteristics","    50 to 54 years",, 44840,"", 21665,"", 23175,"",    6.8,"",    6.7,"",    6.9,"",
-"Age characteristics","    55 to 59 years",, 44360,"", 22060,"", 22305,"",    6.7,"",    6.8,"",    6.6,"",
-"Age characteristics","    60 to 64 years",, 39320,"", 19060,"", 20265,"",    5.9,"",    5.9,"",    6.0,"",
-"Age characteristics","  65 years and over",,112720,"", 51555,"", 61160,"",   17.0,"",   15.9,"",   18.1,"",
-"Age characteristics","    65 to 69 years",, 34590,"", 16420,"", 18170,"",    5.2,"",    5.1,"",    5.4,"",
-"Age characteristics","    70 to 74 years",, 30055,"", 14175,"", 15880,"",    4.5,"",    4.4,"",    4.7,"",
-"Age characteristics","    75 to 79 years",, 18520,"",  8495,"", 10025,"",    2.8,"",    2.6,"",    3.0,"",
-"Age characteristics","    80 to 84 years",, 13865,"",  6080,"",  7785,"",    2.1,"",    1.9,"",    2.3,"",
-"Age characteristics","    85 years and over",, 15695,"",  6385,"",  9310,"",    2.4,"",    2.0,"",    2.8,"",
-"Age characteristics","      85 to 89 years",,  9425,"",  4055,"",  5370,"",    1.4,"",    1.2,"",    1.6,"",
-"Age characteristics","      90 to 94 years",,  4685,"",  1870,"",  2815,"",    0.7,"",    0.6,"",    0.8,"",
-"Age characteristics","      95 to 99 years",,  1350,"",   410,"",   935,"",    0.2,"",    0.1,"",    0.3,"",
-"Age characteristics","      100 years and over",,   235,"",    50,"",   185,"",    0.0,"",    0.0,"",    0.1,"",
-"Age characteristics","Total - Distribution (%) of the population by broad age groups - 100% data",,  100.0,"",  100.0,"",  100.0,"",  100.0,"",  100.0,"",  100.0,"",
-"Age characteristics","  0 to 14 years",,   10.7,"",   11.3,"",   10.1,"",   10.7,"",   11.3,"",   10.1,"",
-"Age characteristics","  15 to 64 years",,   72.3,"",   72.8,"",   71.8,"",   72.3,"",   72.8,"",   71.8,"",
-"Age characteristics","  65 years and over",,   17.0,"",   15.9,"",   18.1,"",   17.0,"",   15.9,"",   18.1,"",
-"Age characteristics","    85 years and over",,    2.4,"",    2.0,"",    2.8,"",    2.4,"",    2.0,"",    2.8,"",
-"Age characteristics","Average age of the population",,   42.2,"",   41.5,"",   43.0,"",   42.2,"",   41.5,"",   43.0,"",
-"Age characteristics","Median age of the population",,   39.6,"",   38.8,"",   40.4,"",   39.6,"",   38.8,"",   40.4,"",
-"Household and dwelling characteristics","Total - Occupied private dwellings by structural type of dwelling - 100% data",,305335,"",,"...",,"...",  100.0,"",,"...",,"...",
-"Household and dwelling characteristics","  Single-detached house",, 44750,"",,"...",,"...",   14.7,"",,"...",,"...",
-"Household and dwelling characteristics","  Semi-detached house",,  4800,"",,"...",,"...",    1.6,"",,"...",,"...",
-"Household and dwelling characteristics","  Row house",, 10815,"",,"...",,"...",    3.5,"",,"...",,"...",
-"Household and dwelling characteristics","  Apartment or flat in a duplex",, 54305,"",,"...",,"...",   17.8,"",,"...",,"...",
-"Household and dwelling characteristics","  Apartment in a building that has fewer than five storeys",, 95120,"",,"...",,"...",   31.2,"",,"...",,"...",
-"Household and dwelling characteristics","  Apartment in a building that has five or more storeys",, 94815,"",,"...",,"...",   31.1,"",,"...",,"...",
-"Household and dwelling characteristics","  Other single-attached house",,   695,"",,"...",,"...",    0.2,"",,"...",,"...",
-"Household and dwelling characteristics","  Movable dwelling",4,    20,"",,"...",,"...",    0.0,"",,"...",,"...",
-"Household and dwelling characteristics","Total - Private households by household size - 100% data",,305335,"",,"...",,"...",  100.0,"",,"...",,"...",
-"Household and dwelling characteristics","  1 person",,119805,"",,"...",,"...",   39.2,"",,"...",,"...",
-"Household and dwelling characteristics","  2 persons",,100730,"",,"...",,"...",   33.0,"",,"...",,"...",
-"Household and dwelling characteristics","  3 persons",, 38600,"",,"...",,"...",   12.6,"",,"...",,"...",
-"Household and dwelling characteristics","  4 persons",, 29140,"",,"...",,"...",    9.5,"",,"...",,"...",
-"Household and dwelling characteristics","  5 or more persons",, 17060,"",,"...",,"...",    5.6,"",,"...",,"...",
-"Household and dwelling characteristics","Number of persons in private households",,650380,"",317905,"",332475,"",  100.0,"",  100.0,"",  100.0,"",
-"Household and dwelling characteristics","Average household size",,    2.1,"",,"...",,"...",    2.1,"",,"...",,"...",
-"Marital status","Total - Marital status for the total population aged 15 years and over - 100% data",,591675,"",287980,"",303700,"",  100.0,"",  100.0,"",  100.0,"",
-"Marital status","  Married or living common-law",,298085,"",149430,"",148660,"",   50.4,"",   51.9,"",   48.9,"",
-"Marital status","    Married",,230735,"",114860,"",115875,"",   39.0,"",   39.9,"",   38.2,"",
-"Marital status","    Living common-law",, 67350,"", 34570,"", 32780,"",   11.4,"",   12.0,"",   10.8,"",
-"Marital status","      Living common law - Never married",, 57990,"", 29630,"", 28355,"",    9.8,"",   10.3,"",    9.3,"",
-"Marital status","      Living common law - Separated",,  1120,"",   650,"",   465,"",    0.2,"",    0.2,"",    0.2,"",
-"Marital status","      Living common law - Divorced",,  7740,"",  4060,"",  3675,"",    1.3,"",    1.4,"",    1.2,"",
-"Marital status","      Living common law - Widowed",,   500,"",   225,"",   280,"",    0.1,"",    0.1,"",    0.1,"",
-"Marital status","  Not married and not living common-law",,293585,"",138550,"",155040,"",   49.6,"",   48.1,"",   51.1,"",
-"Marital status","    Not married and not living common law - Never married",,218140,"",113810,"",104325,"",   36.9,"",   39.5,"",   34.4,"",
-"Marital status","    Not married and not living common law - Separated",, 13790,"",  5870,"",  7920,"",    2.3,"",    2.0,"",    2.6,"",
-"Marital status","    Not married and not living common law - Divorced",, 37675,"", 14270,"", 23400,"",    6.4,"",    5.0,"",    7.7,"",
-"Marital status","    Not married and not living common law - Widowed",, 23985,"",  4595,"", 19390,"",    4.1,"",    1.6,"",    6.4,"",
-"Family characteristics","Total - Census families in private households by family size - 100% data",5,168660,"",,"...",,"...",  100.0,"",,"...",,"...",
-"Family characteristics","  2 persons",, 96975,"",,"...",,"...",   57.5,"",,"...",,"...",
-"Family characteristics","  3 persons",, 35905,"",,"...",,"...",   21.3,"",,"...",,"...",
-"Family characteristics","  4 persons",, 28165,"",,"...",,"...",   16.7,"",,"...",,"...",
-"Family characteristics","  5 or more persons",,  7615,"",,"...",,"...",    4.5,"",,"...",,"...",
-"Family characteristics","Average size of census families",,    2.7,"",,"...",,"...",    2.7,"",,"...",,"...",
-"Family characteristics","Average number of children in census families with children",6,    1.6,"",,"...",,"...",    1.6,"",,"...",,"...",
-"Family characteristics","Total number of census families in private households - 100% data",,168660,"",,"...",,"...",  100.0,"",,"...",,"...",
-"Family characteristics","  Total couple families",,142595,"",,"...",,"...",   84.5,"",,"...",,"...",
-"Family characteristics","    Married couples",,108925,"",,"...",,"...",   64.6,"",,"...",,"...",
-"Family characteristics","      With children",6, 58130,"",,"...",,"...",   34.5,"",,"...",,"...",
-"Family characteristics","      Without children",, 50790,"",,"...",,"...",   30.1,"",,"...",,"...",
-"Family characteristics","    Common-law couples",, 33675,"",,"...",,"...",   20.0,"",,"...",,"...",
-"Family characteristics","      With children",6,  5370,"",,"...",,"...",    3.2,"",,"...",,"...",
-"Family characteristics","      Without children",, 28305,"",,"...",,"...",   16.8,"",,"...",,"...",
-"Family characteristics","  Total one-parent families",, 26060,"",,"...",,"...",   15.5,"",,"...",,"...",
-"Family characteristics","    in which the parent is a woman+",, 21285,"",,"...",,"...",   12.6,"",,"...",,"...",
-"Family characteristics","    in which the parent is a man+",,  4780,"",,"...",,"...",    2.8,"",,"...",,"...",
-"Family characteristics","Total - Persons in private households - 100% data",,650380,"",317905,"",332470,"",  100.0,"",  100.0,"",  100.0,"",
-"Family characteristics","  Total - Persons in census families",,454055,"",224315,"",229740,"",   69.8,"",   70.6,"",   69.1,"",
-"Family characteristics","    Married spouses or common-law partners",,285190,"",143975,"",141215,"",   43.8,"",   45.3,"",   42.5,"",
-"Family characteristics","    Parents in one-parent families",, 26065,"",  4780,"", 21280,"",    4.0,"",    1.5,"",    6.4,"",
-"Family characteristics","    Children",6,142800,"", 75560,"", 67245,"",   22.0,"",   23.8,"",   20.2,"",
-"Family characteristics","      In a two-parent family",,106565,"", 56110,"", 50460,"",   16.4,"",   17.6,"",   15.2,"",
-"Family characteristics","      In a one-parent family",, 36235,"", 19450,"", 16780,"",    5.6,"",    6.1,"",    5.0,"",
-"Family characteristics","  Total - Persons not in census families in private households - 100% data",,196325,"", 93590,"",102735,"",   30.2,"",   29.4,"",   30.9,"",
-"Family characteristics","    Living alone",,119805,"", 56365,"", 63440,"",   18.4,"",   17.7,"",   19.1,"",
-"Family characteristics","    Living with other relatives",7, 19650,"",  7505,"", 12145,"",    3.0,"",    2.4,"",    3.7,"",
-"Family characteristics","    Living with non-relatives only",, 56870,"", 29725,"", 27150,"",    8.7,"",    9.4,"",    8.2,"",
-"Household type","Total - Household type - 100% data",,305335,"",,"...",,"...",  100.0,"",,"...",,"...",
-"Household type","  One-census-family households without additional persons",,142375,"",,"...",,"...",   46.6,"",,"...",,"...",
-"Household type","    Couple-family households",,122210,"",,"...",,"...",   40.0,"",,"...",,"...",
-"Household type","      With children",6, 53125,"",,"...",,"...",   17.4,"",,"...",,"...",
-"Household type","      Without children",, 69085,"",,"...",,"...",   22.6,"",,"...",,"...",
-"Household type","    One-parent-family households",, 20160,"",,"...",,"...",    6.6,"",,"...",,"...",
-"Household type","  Multigenerational households",8,  8260,"",,"...",,"...",    2.7,"",,"...",,"...",
-"Household type","  Multiple-census-family households",9,  2030,"",,"...",,"...",    0.7,"",,"...",,"...",
-"Household type","  One-census-family households with additional persons",9,  9045,"",,"...",,"...",    3.0,"",,"...",,"...",
-"Household type","  Two-or-more-person non-census-family households ",, 23825,"",,"...",,"...",    7.8,"",,"...",,"...",
-"Household type","  One-person households",,119805,"",,"...",,"...",   39.2,"",,"...",,"...",
-"Income of individuals in 2020","Total - Income statistics in 2020 for the population aged 15 years and over in private households - 100% data",10,580010,"",281450,"",298560,"",  100.0,"",  100.0,"",  100.0,"",
-"Income of individuals in 2020","  Number of total income recipients aged 15 years and over in private households in 2020 - 100% data",,563730,"",273475,"",290250,"",   97.2,"",   97.2,"",   97.2,"",
-"Income of individuals in 2020","    Median total income in 2020 among recipients ($)",, 42000,"", 45600,"", 39200,"", 42000,"", 45600,"", 39200,"",
-"Income of individuals in 2020","  Number of after-tax income recipients aged 15 years and over in private households in 2020 - 100% data",,564040,"",273650,"",290390,"",   97.2,"",   97.2,"",   97.3,"",
-"Income of individuals in 2020","    Median after-tax income in 2020 among recipients ($)",, 38000,"", 40800,"", 36000,"", 38000,"", 40800,"", 36000,"",
-"Income of individuals in 2020","  Number of market income recipients aged 15 years and over in private households in 2020 - 100% data",,508185,"",247130,"",261055,"",   87.6,"",   87.8,"",   87.4,"",
-"Income of individuals in 2020","    Median market income in 2020 among recipients ($)",, 38800,"", 44800,"", 34000,"", 38800,"", 44800,"", 34000,"",
-"Income of individuals in 2020","  Number of employment income recipients aged 15 years and over in private households in 2020 - 100% data",,415915,"",207825,"",208085,"",   71.7,"",   73.8,"",   69.7,"",
-"Income of individuals in 2020","    Median employment income in 2020 among recipients ($)",, 41200,"", 46400,"", 36400,"", 41200,"", 46400,"", 36400,"",
-"Income of individuals in 2020","  Number of government transfers recipients aged 15 years and over in private households in 2020 - 100% data",,454870,"",209135,"",245735,"",   78.4,"",   74.3,"",   82.3,"",
-"Income of individuals in 2020","    Median government transfers in 2020 among recipients ($)",,  8200,"",  7900,"",  8500,"",  8200,"",  7900,"",  8500,"",
-"Income of individuals in 2020","  Number of employment insurance benefits recipients aged 15 years and over in private households in 2020 - 100% data",, 49505,"", 22375,"", 27125,"",    8.5,"",    7.9,"",    9.1,"",
-"Income of individuals in 2020","    Median employment insurance benefits in 2020 among recipients ($)",,  5480,"",  5480,"",  5520,"",  5480,"",  5480,"",  5520,"",
-"Income of individuals in 2020","  Number of COVID-19 emergency and recovery benefits recipients aged 15 years and over in private households in 2020 - 100% data",,170155,"", 82630,"", 87525,"",   29.3,"",   29.4,"",   29.3,"",
-"Income of individuals in 2020","    Median COVID-19 emergency and recovery benefits in 2020 among recipients ($)",,  9500,"",  9000,"",  9500,"",  9500,"",  9000,"",  9500,"",
-"Income of individuals in 2020","Total - Income statistics in 2020 for the population aged 15 years and over in private households - 25% sample data",11,580010,"",281355,"",298655,"",  100.0,"",  100.0,"",  100.0,"",
-"Income of individuals in 2020","  Number of total income recipients aged 15 years and over in private households in 2020 - 25% sample data",,563600,"",273300,"",290295,"",   97.2,"",   97.1,"",   97.2,"",
-"Income of individuals in 2020","    Average total income in 2020 among recipients ($)",, 62250,"", 71700,"", 53350,"", 62250,"", 71700,"", 53350,"",
-"Income of individuals in 2020","  Number of after-tax income recipients aged 15 years and over in private households in 2020 - 25% sample data",,563910,"",273480,"",290425,"",   97.2,"",   97.2,"",   97.2,"",
-"Income of individuals in 2020","    Average after-tax income in 2020 among recipients ($)",, 50080,"", 56050,"", 44520,"", 50080,"", 56050,"", 44520,"",
-"Income of individuals in 2020","  Number of market income recipients aged 15 years and over in private households in 2020 - 25% sample data",,508140,"",246985,"",261155,"",   87.6,"",   87.8,"",   87.4,"",
-"Income of individuals in 2020","    Average market income in 2020 among recipients ($)",, 60150,"", 71200,"", 49720,"", 60150,"", 71200,"", 49720,"",
-"Income of individuals in 2020","  Number of employment income recipients aged 15 years and over in private households in 2020 - 25% sample data",,415915,"",208040,"",207875,"",   71.7,"",   73.9,"",   69.6,"",
-"Income of individuals in 2020","    Average employment income in 2020 among recipients ($)",, 58700,"", 68400,"", 48960,"", 58700,"", 68400,"", 48960,"",
-"Income of individuals in 2020","  Number of government transfers recipients aged 15 years and over in private households in 2020 - 25% sample data",,454215,"",208415,"",245800,"",   78.3,"",   74.1,"",   82.3,"",
-"Income of individuals in 2020","    Average government transfers in 2020 among recipients ($)",,  9940,"",  9620,"", 10220,"",  9940,"",  9620,"", 10220,"",
-"Income of individuals in 2020","  Number of employment insurance benefits recipients aged 15 years and over in private households in 2020 - 25% sample data",, 49585,"", 22205,"", 27380,"",    8.5,"",    7.9,"",    9.2,"",
-"Income of individuals in 2020","    Average employment insurance benefits in 2020 among recipients ($)",,  6410,"",  5835,"",  6880,"",  6410,"",  5835,"",  6880,"",
-"Income of individuals in 2020","  Number of COVID-19 emergency and recovery benefits recipients aged 15 years and over in private households in 2020 - 25% sample data",,169180,"", 82150,"", 87035,"",   29.2,"",   29.2,"",   29.1,"",
-"Income of individuals in 2020","    Average COVID-19 emergency and recovery benefits in 2020 among recipients ($)",,  9610,"",  9600,"",  9620,"",  9610,"",  9600,"",  9620,"",
-"Income of individuals in 2020","Total - Employment income statistics in 2020 for the population aged 15 years and over in private households - 25% sample data",12,580010,"",281355,"",298660,"",  100.0,"",  100.0,"",  100.0,"",
-"Income of individuals in 2020","  Number of employment income recipients in 2020 who worked full-year full-time in 2020 - 25% sample data",13,192635,"",104825,"", 87805,"",   33.2,"",   37.3,"",   29.4,"",
-"Income of individuals in 2020","    Median employment income in 2020 for full-year full-time workers in 2020 ($)",14, 69500,"", 74500,"", 64500,"", 69500,"", 74500,"", 64500,"",
-"Income of individuals in 2020","    Average employment income in 2020 for full-year full-time workers in 2020 ($)",15, 90200,"",101400,"", 76700,"", 90200,"",101400,"", 76700,"",
-"Income of individuals in 2020","  Number of employment income recipients in 2020 who worked part-year or part-time in 2020 - 25% sample data",16,173660,"", 79770,"", 93895,"",   29.9,"",   28.4,"",   31.4,"",
-"Income of individuals in 2020","    Median employment income in 2020 of those who worked part-year or part-time in 2020 ($)",, 20200,"", 21800,"", 19000,"", 20200,"", 21800,"", 19000,"",
-"Income of individuals in 2020","    Average employment income in 2020 of those who worked part-year or part-time in 2020 ($)",, 33400,"", 37080,"", 30280,"", 33400,"", 37080,"", 30280,"",
-"Income of individuals in 2020","Composition of total income in 2020 of the population aged 15 years and over in private households (%) - 25% sample data",17,  100.0,"",  100.0,"",  100.0,"",  100.0,"",  100.0,"",  100.0,"",
-"Income of individuals in 2020","  Market income (%)",18,   87.2,"",   89.8,"",   83.8,"",   87.2,"",   89.8,"",   83.8,"",
-"Income of individuals in 2020","    Employment income (%)",19,   69.6,"",   72.6,"",   65.6,"",   69.6,"",   72.6,"",   65.6,"",
-"Income of individuals in 2020","  Government transfers (%)",20,   12.9,"",   10.2,"",   16.2,"",   12.9,"",   10.2,"",   16.2,"",
-"Income of individuals in 2020","    Employment insurance benefits (%)",,    0.9,"",    0.7,"",    1.2,"",    0.9,"",    0.7,"",    1.2,"",
-"Income of individuals in 2020","    COVID-19 - Government income support and benefits (%)",,    5.6,"",    4.7,"",    6.6,"",    5.6,"",    4.7,"",    6.6,"",
-"Income of individuals in 2020","      COVID-19 - Emergency and recovery benefits (%)",,    4.6,"",    4.0,"",    5.4,"",    4.6,"",    4.0,"",    5.4,"",
-"Income of individuals in 2020","Total - Total income groups in 2020 for the population aged 15 years and over in private households - 100% data",21,580010,"",281455,"",298560,"",  100.0,"",  100.0,"",  100.0,"",
-"Income of individuals in 2020","  Without total income",, 16285,"",  7975,"",  8305,"",    2.8,"",    2.8,"",    2.8,"",
-"Income of individuals in 2020","  With total income",,563730,"",273475,"",290255,"",   97.2,"",   97.2,"",   97.2,"",
-"Income of individuals in 2020","    Under $10,000 (including loss)",, 55370,"", 25295,"", 30075,"",    9.8,"",    9.2,"",   10.4,"",
-"Income of individuals in 2020","    $10,000 to $19,999",, 61180,"", 28340,"", 32835,"",   10.9,"",   10.4,"",   11.3,"",
-"Income of individuals in 2020","    $20,000 to $29,999",, 86405,"", 38360,"", 48045,"",   15.3,"",   14.0,"",   16.6,"",
-"Income of individuals in 2020","    $30,000 to $39,999",, 67875,"", 30530,"", 37345,"",   12.0,"",   11.2,"",   12.9,"",
-"Income of individuals in 2020","    $40,000 to $49,999",, 55555,"", 25140,"", 30420,"",    9.9,"",    9.2,"",   10.5,"",
-"Income of individuals in 2020","    $50,000 to $59,999",, 46055,"", 20965,"", 25095,"",    8.2,"",    7.7,"",    8.6,"",
-"Income of individuals in 2020","    $60,000 to $69,999",, 37150,"", 18060,"", 19085,"",    6.6,"",    6.6,"",    6.6,"",
-"Income of individuals in 2020","    $70,000 to $79,999",, 30195,"", 15230,"", 14965,"",    5.4,"",    5.6,"",    5.2,"",
-"Income of individuals in 2020","    $80,000 to $89,999",, 24045,"", 12365,"", 11675,"",    4.3,"",    4.5,"",    4.0,"",
-"Income of individuals in 2020","    $90,000 to $99,999",, 19545,"", 10140,"",  9405,"",    3.5,"",    3.7,"",    3.2,"",
-"Income of individuals in 2020","    $100,000 and over",, 80345,"", 49040,"", 31310,"",   14.3,"",   17.9,"",   10.8,"",
-"Income of individuals in 2020","      $100,000 to $149,999",, 46155,"", 26435,"", 19725,"",    8.2,"",    9.7,"",    6.8,"",
-"Income of individuals in 2020","      $150,000 and over",, 34195,"", 22605,"", 11585,"",    6.1,"",    8.3,"",    4.0,"",
-"Income of individuals in 2020","Total - After-tax income groups in 2020 for the population aged 15 years and over in private households - 100% data",22,580010,"",281455,"",298560,"",  100.0,"",  100.0,"",  100.0,"",
-"Income of individuals in 2020","  Without after-tax income",, 15975,"",  7800,"",  8170,"",    2.8,"",    2.8,"",    2.7,"",
-"Income of individuals in 2020","  With after-tax income",,564035,"",273650,"",290385,"",   97.2,"",   97.2,"",   97.3,"",
-"Income of individuals in 2020","    Under $10,000 (including loss)",, 57995,"", 26550,"", 31445,"",   10.3,"",    9.7,"",   10.8,"",
-"Income of individuals in 2020","    $10,000 to $19,999",, 63245,"", 29355,"", 33890,"",   11.2,"",   10.7,"",   11.7,"",
-"Income of individuals in 2020","    $20,000 to $29,999",, 97585,"", 43580,"", 54000,"",   17.3,"",   15.9,"",   18.6,"",
-"Income of individuals in 2020","    $30,000 to $39,999",, 77280,"", 35020,"", 42265,"",   13.7,"",   12.8,"",   14.6,"",
-"Income of individuals in 2020","    $40,000 to $49,999",, 63640,"", 28995,"", 34650,"",   11.3,"",   10.6,"",   11.9,"",
-"Income of individuals in 2020","    $50,000 to $59,999",, 50160,"", 23985,"", 26170,"",    8.9,"",    8.8,"",    9.0,"",
-"Income of individuals in 2020","    $60,000 to $69,999",, 38210,"", 19210,"", 18995,"",    6.8,"",    7.0,"",    6.5,"",
-"Income of individuals in 2020","    $70,000 to $79,999",, 29320,"", 15255,"", 14070,"",    5.2,"",    5.6,"",    4.8,"",
-"Income of individuals in 2020","    $80,000 to $89,999",, 21470,"", 11310,"", 10165,"",    3.8,"",    4.1,"",    3.5,"",
-"Income of individuals in 2020","    $90,000 to $99,999",, 14965,"",  8400,"",  6570,"",    2.7,"",    3.1,"",    2.3,"",
-"Income of individuals in 2020","    $100,000 and over",, 50165,"", 32000,"", 18165,"",    8.9,"",   11.7,"",    6.3,"",
-"Income of individuals in 2020","      $100,000 to $124,999",, 21515,"", 13030,"",  8490,"",    3.8,"",    4.8,"",    2.9,"",
-"Income of individuals in 2020","      $125,000 and over",, 28645,"", 18970,"",  9670,"",    5.1,"",    6.9,"",    3.3,"",
-"Income of individuals in 2020","Total - Employment income groups in 2020 for the population aged 15 years and over in private households - 100% data",19,580010,"",281455,"",298560,"",  100.0,"",  100.0,"",  100.0,"",
-"Income of individuals in 2020","  Without employment income",,164095,"", 73625,"", 90470,"",   28.3,"",   26.2,"",   30.3,"",
-"Income of individuals in 2020","  With employment income",,415915,"",207825,"",208090,"",   71.7,"",   73.8,"",   69.7,"",
-"Income of individuals in 2020","    Under $5,000 (including loss)",, 51110,"", 23615,"", 27495,"",   12.3,"",   11.4,"",   13.2,"",
-"Income of individuals in 2020","    $5,000 to $9,999",, 33650,"", 15005,"", 18650,"",    8.1,"",    7.2,"",    9.0,"",
-"Income of individuals in 2020","    $10,000 to $19,999",, 48115,"", 21800,"", 26315,"",   11.6,"",   10.5,"",   12.6,"",
-"Income of individuals in 2020","    $20,000 to $29,999",, 36415,"", 16885,"", 19535,"",    8.8,"",    8.1,"",    9.4,"",
-"Income of individuals in 2020","    $30,000 to $39,999",, 34295,"", 16015,"", 18285,"",    8.2,"",    7.7,"",    8.8,"",
-"Income of individuals in 2020","    $40,000 to $49,999",, 34220,"", 16115,"", 18105,"",    8.2,"",    7.8,"",    8.7,"",
-"Income of individuals in 2020","    $50,000 to $59,999",, 32385,"", 15285,"", 17100,"",    7.8,"",    7.4,"",    8.2,"",
-"Income of individuals in 2020","    $60,000 to $69,999",, 27390,"", 13915,"", 13475,"",    6.6,"",    6.7,"",    6.5,"",
-"Income of individuals in 2020","    $70,000 to $79,999",, 22615,"", 11835,"", 10775,"",    5.4,"",    5.7,"",    5.2,"",
-"Income of individuals in 2020","    $80,000 to $89,999",, 19180,"", 10170,"",  9010,"",    4.6,"",    4.9,"",    4.3,"",
-"Income of individuals in 2020","    $90,000 to $99,999",, 15870,"",  8395,"",  7475,"",    3.8,"",    4.0,"",    3.6,"",
+Topic,Characteristic,Note,Total
+Population and dwellings,"Population, 2021",1,662248
+Population and dwellings,"Population, 2016",1,631486
+Population and dwellings,"Population percentage change, 2016 to 2021",,    4.9
+Population and dwellings,Total private dwellings,2,328347
+Population and dwellings,Private dwellings occupied by usual residents,3,305336
+Population and dwellings,Population density per square kilometre,, 5749.9
+Population and dwellings,Land area in square kilometres,,  115.18
+Age characteristics,Total - Age groups of the population - 100% data,,662250
+Age characteristics,  0 to 14 years,, 70570
+Age characteristics,    0 to 4 years,, 23840
+Age characteristics,    5 to 9 years,, 23070
+Age characteristics,    10 to 14 years,, 23660
+Age characteristics,  15 to 64 years,,478960
+Age characteristics,    15 to 19 years,, 26315
+Age characteristics,    20 to 24 years,, 43290
+Age characteristics,    25 to 29 years,, 67155
+Age characteristics,    30 to 34 years,, 69225
+Age characteristics,    35 to 39 years,, 57330
+Age characteristics,    40 to 44 years,, 45075
+Age characteristics,    45 to 49 years,, 42045
+Age characteristics,    50 to 54 years,, 44840
+Age characteristics,    55 to 59 years,, 44360
+Age characteristics,    60 to 64 years,, 39320
+Age characteristics,  65 years and over,,112720
+Age characteristics,    65 to 69 years,, 34590
+Age characteristics,    70 to 74 years,, 30055
+Age characteristics,    75 to 79 years,, 18520
+Age characteristics,    80 to 84 years,, 13865
+Age characteristics,    85 years and over,, 15695
+Age characteristics,      85 to 89 years,,  9425
+Age characteristics,      90 to 94 years,,  4685
+Age characteristics,      95 to 99 years,,  1350
+Age characteristics,      100 years and over,,   235
+Age characteristics,Total - Distribution (%) of the population by broad age groups - 100% data,,  100.0
+Age characteristics,  0 to 14 years,,   10.7
+Age characteristics,  15 to 64 years,,   72.3
+Age characteristics,  65 years and over,,   17.0
+Age characteristics,    85 years and over,,    2.4
+Age characteristics,Average age of the population,,   42.2
+Age characteristics,Median age of the population,,   39.6
+Household and dwelling characteristics,Total - Occupied private dwellings by structural type of dwelling - 100% data,,305335
+Household and dwelling characteristics,  Single-detached house,, 44750
+Household and dwelling characteristics,  Semi-detached house,,  4800
+Household and dwelling characteristics,  Row house,, 10815
+Household and dwelling characteristics,  Apartment or flat in a duplex,, 54305
+Household and dwelling characteristics,  Apartment in a building that has fewer than five storeys,, 95120
+Household and dwelling characteristics,  Apartment in a building that has five or more storeys,, 94815
+Household and dwelling characteristics,  Other single-attached house,,   695
+Household and dwelling characteristics,  Movable dwelling,4,    20
+Household and dwelling characteristics,Total - Private households by household size - 100% data,,305335
+Household and dwelling characteristics,  1 person,,119805
+Household and dwelling characteristics,  2 persons,,100730
+Household and dwelling characteristics,  3 persons,, 38600
+Household and dwelling characteristics,  4 persons,, 29140
+Household and dwelling characteristics,  5 or more persons,, 17060
+Household and dwelling characteristics,Number of persons in private households,,650380
+Household and dwelling characteristics,Average household size,,    2.1
+Marital status,Total - Marital status for the total population aged 15 years and over - 100% data,,591675
+Marital status,  Married or living common-law,,298085
+Marital status,    Married,,230735
+Marital status,    Living common-law,, 67350
+Marital status,      Living common law - Never married,, 57990
+Marital status,      Living common law - Separated,,  1120
+Marital status,      Living common law - Divorced,,  7740
+Marital status,      Living common law - Widowed,,   500
+Marital status,  Not married and not living common-law,,293585
+Marital status,    Not married and not living common law - Never married,,218140
+Marital status,    Not married and not living common law - Separated,, 13790
+Marital status,    Not married and not living common law - Divorced,, 37675
+Marital status,    Not married and not living common law - Widowed,, 23985
+Family characteristics,Total - Census families in private households by family size - 100% data,5,168660
+Family characteristics,  2 persons,, 96975
+Family characteristics,  3 persons,, 35905
+Family characteristics,  4 persons,, 28165
+Family characteristics,  5 or more persons,,  7615
+Family characteristics,Average size of census families,,    2.7
+Family characteristics,Average number of children in census families with children,6,    1.6
+Family characteristics,Total number of census families in private households - 100% data,,168660
+Family characteristics,  Total couple families,,142595
+Family characteristics,    Married couples,,108925
+Family characteristics,      With children,6, 58130
+Family characteristics,      Without children,, 50790
+Family characteristics,    Common-law couples,, 33675
+Family characteristics,      With children,6,  5370
+Family characteristics,      Without children,, 28305
+Family characteristics,  Total one-parent families,, 26060
+Family characteristics,    in which the parent is a woman+,, 21285
+Family characteristics,    in which the parent is a man+,,  4780
+Family characteristics,Total - Persons in private households - 100% data,,650380
+Family characteristics,  Total - Persons in census families,,454055
+Family characteristics,    Married spouses or common-law partners,,285190
+Family characteristics,    Parents in one-parent families,, 26065
+Family characteristics,    Children,6,142800
+Family characteristics,      In a two-parent family,,106565
+Family characteristics,      In a one-parent family,, 36235
+Family characteristics,  Total - Persons not in census families in private households - 100% data,,196325
+Family characteristics,    Living alone,,119805
+Family characteristics,    Living with other relatives,7, 19650
+Family characteristics,    Living with non-relatives only,, 56870
+Household type,Total - Household type - 100% data,,305335
+Household type,  One-census-family households without additional persons,,142375
+Household type,    Couple-family households,,122210
+Household type,      With children,6, 53125
+Household type,      Without children,, 69085
+Household type,    One-parent-family households,, 20160
+Household type,  Multigenerational households,8,  8260
+Household type,  Multiple-census-family households,9,  2030
+Household type,  One-census-family households with additional persons,9,  9045
+Household type,  Two-or-more-person non-census-family households ,, 23825
+Household type,  One-person households,,119805
+Income of individuals in 2020,Total - Income statistics in 2020 for the population aged 15 years and over in private households - 100% data,10,580010
+Income of individuals in 2020,  Number of total income recipients aged 15 years and over in private households in 2020 - 100% data,,563730
+Income of individuals in 2020,    Median total income in 2020 among recipients ($),, 42000
+Income of individuals in 2020,  Number of after-tax income recipients aged 15 years and over in private households in 2020 - 100% data,,564040
+Income of individuals in 2020,    Median after-tax income in 2020 among recipients ($),, 38000
+Income of individuals in 2020,  Number of market income recipients aged 15 years and over in private households in 2020 - 100% data,,508185
+Income of individuals in 2020,    Median market income in 2020 among recipients ($),, 38800
+Income of individuals in 2020,  Number of employment income recipients aged 15 years and over in private households in 2020 - 100% data,,415915
+Income of individuals in 2020,    Median employment income in 2020 among recipients ($),, 41200
+Income of individuals in 2020,  Number of government transfers recipients aged 15 years and over in private households in 2020 - 100% data,,454870
+Income of individuals in 2020,    Median government transfers in 2020 among recipients ($),,  8200
+Income of individuals in 2020,  Number of employment insurance benefits recipients aged 15 years and over in private households in 2020 - 100% data,, 49505
+Income of individuals in 2020,    Median employment insurance benefits in 2020 among recipients ($),,  5480
+Income of individuals in 2020,  Number of COVID-19 emergency and recovery benefits recipients aged 15 years and over in private households in 2020 - 100% data,,170155
+Income of individuals in 2020,    Median COVID-19 emergency and recovery benefits in 2020 among recipients ($),,  9500
+Income of individuals in 2020,Total - Income statistics in 2020 for the population aged 15 years and over in private households - 25% sample data,11,580010
+Income of individuals in 2020,  Number of total income recipients aged 15 years and over in private households in 2020 - 25% sample data,,563600
+Income of individuals in 2020,    Average total income in 2020 among recipients ($),, 62250
+Income of individuals in 2020,  Number of after-tax income recipients aged 15 years and over in private households in 2020 - 25% sample data,,563910
+Income of individuals in 2020,    Average after-tax income in 2020 among recipients ($),, 50080
+Income of individuals in 2020,  Number of market income recipients aged 15 years and over in private households in 2020 - 25% sample data,,508140
+Income of individuals in 2020,    Average market income in 2020 among recipients ($),, 60150
+Income of individuals in 2020,  Number of employment income recipients aged 15 years and over in private households in 2020 - 25% sample data,,415915
+Income of individuals in 2020,    Average employment income in 2020 among recipients ($),, 58700
+Income of individuals in 2020,  Number of government transfers recipients aged 15 years and over in private households in 2020 - 25% sample data,,454215
+Income of individuals in 2020,    Average government transfers in 2020 among recipients ($),,  9940
+Income of individuals in 2020,  Number of employment insurance benefits recipients aged 15 years and over in private households in 2020 - 25% sample data,, 49585
+Income of individuals in 2020,    Average employment insurance benefits in 2020 among recipients ($),,  6410
+Income of individuals in 2020,  Number of COVID-19 emergency and recovery benefits recipients aged 15 years and over in private households in 2020 - 25% sample data,,169180
+Income of individuals in 2020,    Average COVID-19 emergency and recovery benefits in 2020 among recipients ($),,  9610
+Income of individuals in 2020,Total - Employment income statistics in 2020 for the population aged 15 years and over in private households - 25% sample data,12,580010
+Income of individuals in 2020,  Number of employment income recipients in 2020 who worked full-year full-time in 2020 - 25% sample data,13,192635
+Income of individuals in 2020,    Median employment income in 2020 for full-year full-time workers in 2020 ($),14, 69500
+Income of individuals in 2020,    Average employment income in 2020 for full-year full-time workers in 2020 ($),15, 90200
+Income of individuals in 2020,  Number of employment income recipients in 2020 who worked part-year or part-time in 2020 - 25% sample data,16,173660
+Income of individuals in 2020,    Median employment income in 2020 of those who worked part-year or part-time in 2020 ($),, 20200
+Income of individuals in 2020,    Average employment income in 2020 of those who worked part-year or part-time in 2020 ($),, 33400
+Income of individuals in 2020,Composition of total income in 2020 of the population aged 15 years and over in private households (%) - 25% sample data,17,  100.0
+Income of individuals in 2020,  Market income (%),18,   87.2
+Income of individuals in 2020,    Employment income (%),19,   69.6
+Income of individuals in 2020,  Government transfers (%),20,   12.9
+Income of individuals in 2020,    Employment insurance benefits (%),,    0.9
+Income of individuals in 2020,    COVID-19 - Government income support and benefits (%),,    5.6
+Income of individuals in 2020,      COVID-19 - Emergency and recovery benefits (%),,    4.6
+Income of individuals in 2020,Total - Total income groups in 2020 for the population aged 15 years and over in private households - 100% data,21,580010
+Income of individuals in 2020,  Without total income,, 16285
+Income of individuals in 2020,  With total income,,563730
+Income of individuals in 2020,"    Under $10,000 (including loss)",, 55370
+Income of individuals in 2020,"    $10,000 to $19,999",, 61180
+Income of individuals in 2020,"    $20,000 to $29,999",, 86405
+Income of individuals in 2020,"    $30,000 to $39,999",, 67875
+Income of individuals in 2020,"    $40,000 to $49,999",, 55555
+Income of individuals in 2020,"    $50,000 to $59,999",, 46055
+Income of individuals in 2020,"    $60,000 to $69,999",, 37150
+Income of individuals in 2020,"    $70,000 to $79,999",, 30195
+Income of individuals in 2020,"    $80,000 to $89,999",, 24045
+Income of individuals in 2020,"    $90,000 to $99,999",, 19545
+Income of individuals in 2020,"    $100,000 and over",, 80345
+Income of individuals in 2020,"      $100,000 to $149,999",, 46155
+Income of individuals in 2020,"      $150,000 and over",, 34195
+Income of individuals in 2020,Total - After-tax income groups in 2020 for the population aged 15 years and over in private households - 100% data,22,580010
+Income of individuals in 2020,  Without after-tax income,, 15975
+Income of individuals in 2020,  With after-tax income,,564035
+Income of individuals in 2020,"    Under $10,000 (including loss)",, 57995
+Income of individuals in 2020,"    $10,000 to $19,999",, 63245
+Income of individuals in 2020,"    $20,000 to $29,999",, 97585
+Income of individuals in 2020,"    $30,000 to $39,999",, 77280
+Income of individuals in 2020,"    $40,000 to $49,999",, 63640
+Income of individuals in 2020,"    $50,000 to $59,999",, 50160
+Income of individuals in 2020,"    $60,000 to $69,999",, 38210
+Income of individuals in 2020,"    $70,000 to $79,999",, 29320
+Income of individuals in 2020,"    $80,000 to $89,999",, 21470
+Income of individuals in 2020,"    $90,000 to $99,999",, 14965
+Income of individuals in 2020,"    $100,000 and over",, 50165
+Income of individuals in 2020,"      $100,000 to $124,999",, 21515
+Income of individuals in 2020,"      $125,000 and over",, 28645
+Income of individuals in 2020,Total - Employment income groups in 2020 for the population aged 15 years and over in private households - 100% data,19,580010
+Income of individuals in 2020,  Without employment income,,164095
+Income of individuals in 2020,  With employment income,,415915
+Income of individuals in 2020,"    Under $5,000 (including loss)",, 51110
+Income of individuals in 2020,"    $5,000 to $9,999",, 33650
+Income of individuals in 2020,"    $10,000 to $19,999",, 48115
+Income of individuals in 2020,"    $20,000 to $29,999",, 36415
+Income of individuals in 2020,"    $30,000 to $39,999",, 34295
+Income of individuals in 2020,"    $40,000 to $49,999",, 34220
+Income of individuals in 2020,"    $50,000 to $59,999",, 32385
+Income of individuals in 2020,"    $60,000 to $69,999",, 27390
+Income of individuals in 2020,"    $70,000 to $79,999",, 22615
+Income of individuals in 2020,"    $80,000 to $89,999",, 19180
+Income of individuals in 2020,"    $90,000 to $99,999",, 15870
