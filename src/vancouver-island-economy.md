@@ -3,9 +3,15 @@ title: Vancouver Island & Coast - Unemployment Rate
 toc: false
 ---
 
-# Vancouver Island & Coast - Unemployment Rate
-
-Three-month moving average unemployment rate (August - December 2024)
+<div style="display: flex; justify-content: space-between; align-items: start; gap: 2rem; margin-bottom: 2rem;">
+  <div>
+    <h1 style="margin: 0 0 0.5rem 0;">Vancouver Island & Coast - Unemployment Rate</h1>
+    <p style="margin: 0; color: var(--theme-foreground-muted);">Three-month moving average unemployment rate (August - December 2024)</p>
+  </div>
+  <div class="note" style="text-align: right; font-size: 0.875rem; min-width: 300px;">
+    <strong>Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410038701" target="_blank">Statistics Canada Table 14-10-0387-01</a> - Three-month moving average unemployment rates for Vancouver Island & Coast compared to BC and Canada (August - December 2024)
+  </div>
+</div>
 
 ```js
 const labourRaw = FileAttachment("data/labour-force-cleaned.csv").csv({typed: true});
@@ -100,11 +106,6 @@ const viCanadaDiff = currentVIRate - currentCanadaRate;
   ${resize((width) => createUnemploymentChart(width))}
 </div>
 
-<div class="note">
-**Data source:** <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410038701" target="_blank">Statistics Canada Table 14-10-0387-01</a> - Three-month moving average unemployment rates for Vancouver Island & Coast compared to BC and Canada (August - December 2024)
-</div>
-
-
 ```js
 function createUnemploymentChart(width) {
   const isMobile = width < 640;
@@ -115,7 +116,11 @@ function createUnemploymentChart(width) {
     height: isMobile ? 300 : 400,
     marginLeft: isMobile ? 50 : 60,
     marginRight: isMobile ? 20 : 100,
-    marginBottom: isMobile ? 40 : 40,
+    marginBottom: isMobile ? 50 : 50,
+    style: {
+      fontSize: "16px",
+      fontWeight: "600"
+    },
     x: {
       label: "Month",
       grid: false

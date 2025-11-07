@@ -190,7 +190,11 @@ function createAgeDistributionChart(width) {
     height: isMobile ? 300 : 350,
     marginLeft: isMobile ? 60 : 70,
     marginRight: isMobile ? 20 : 30,
-    marginBottom: isMobile ? 80 : 70,
+    marginBottom: isMobile ? 90 : 80,
+    style: {
+      fontSize: "16px",
+      fontWeight: "600"
+    },
     x: {
       label: null,
       tickRotate: -45
@@ -228,7 +232,11 @@ function createDwellingChart(width) {
     height: isMobile ? 300 : 350,
     marginLeft: isMobile ? 180 : 200,
     marginRight: isMobile ? 20 : 30,
-    marginBottom: isMobile ? 40 : 35,
+    marginBottom: isMobile ? 50 : 45,
+    style: {
+      fontSize: "16px",
+      fontWeight: "600"
+    },
     x: {
       label: "Percentage (%)",
       grid: true

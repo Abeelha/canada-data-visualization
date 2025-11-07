@@ -3,9 +3,15 @@ title: Clean Technology Sector - British Columbia
 toc: false
 ---
 
-# Clean Technology Sector - British Columbia
-
-Employment and compensation trends in environmental and clean technology products (2012-2023)
+<div style="display: flex; justify-content: space-between; align-items: start; gap: 2rem; margin-bottom: 2rem;">
+  <div>
+    <h1 style="margin: 0 0 0.5rem 0;">Clean Technology Sector - British Columbia</h1>
+    <p style="margin: 0; color: var(--theme-foreground-muted);">Employment and compensation trends in environmental and clean technology products (2012-2023)</p>
+  </div>
+  <div class="note" style="text-align: right; font-size: 0.875rem; min-width: 300px;">
+    <strong>Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - British Columbia employment and average annual compensation data for environmental and clean technology products (2012-2023)
+  </div>
+</div>
 
 ```js
 const cleanTechRaw = FileAttachment("data/clean-tech-cleaned.csv").csv({typed: true});
@@ -149,6 +155,12 @@ const prevAvgCompensation = prevYearCompensationData
   .reduce((sum, d) => sum + d.compensation, 0);
 
 const compensationGrowth = prevAvgCompensation > 0 ? ((avgCompensation - prevAvgCompensation) / prevAvgCompensation * 100) : 0;
+
+const envCompDiff = avgEnvCompensation - avgCompensation;
+const envCompDiffFormatted = `${envCompDiff >= 0 ? '+' : ''}$${(Math.abs(envCompDiff) / 1000).toFixed(1)}K`;
+
+const cleanTechCompDiff = avgCleanTechCompensation - avgCompensation;
+const cleanTechCompDiffFormatted = `${cleanTechCompDiff >= 0 ? '+' : ''}$${(Math.abs(cleanTechCompDiff) / 1000).toFixed(1)}K`;
 ```
 
 <div class="grid grid-cols-4">
@@ -183,12 +195,12 @@ const compensationGrowth = prevAvgCompensation > 0 ? ((avgCompensation - prevAvg
   <div class="card">
     <h2>Environmental Avg</h2>
     <span class="big">$${(avgEnvCompensation / 1000).toFixed(0)}K</span>
-    <span class="muted">${((avgEnvCompensation - avgCompensation) >= 0 ? '+' : ''}$${((avgEnvCompensation - avgCompensation) / 1000).toFixed(1)}K vs total</span>
+    <span class="muted">${envCompDiffFormatted} vs total</span>
   </div>
   <div class="card">
     <h2>Clean Tech Avg</h2>
     <span class="big">$${(avgCleanTechCompensation / 1000).toFixed(0)}K</span>
-    <span class="muted">${((avgCleanTechCompensation - avgCompensation) >= 0 ? '+' : ''}$${((avgCleanTechCompensation - avgCompensation) / 1000).toFixed(1)}K vs total</span>
+    <span class="muted">${cleanTechCompDiffFormatted} vs total</span>
   </div>
   <div class="card">
     <h2>Salary Growth</h2>
@@ -219,10 +231,6 @@ const compensationGrowth = prevAvgCompensation > 0 ? ((avgCompensation - prevAvg
   </div>
 </div>
 
-<div class="note">
-**Data source:** <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - British Columbia employment and average annual compensation data for environmental and clean technology products (2012-2023)
-</div>
-
 ```js
 function createTrendChart(width) {
   const isMobile = width < 640;
@@ -242,7 +250,11 @@ function createTrendChart(width) {
     height: isMobile ? 280 : 320,
     marginLeft: isMobile ? 50 : 60,
     marginRight: isMobile ? 20 : 30,
-    marginBottom: isMobile ? 45 : 40,
+    marginBottom: isMobile ? 50 : 50,
+    style: {
+      fontSize: "18px",
+      fontWeight: "600"
+    },
     x: {
       label: "Year",
       grid: true
@@ -294,6 +306,10 @@ function createCategoryChart(width) {
     marginLeft: isMobile ? 140 : 160,
     marginRight: isMobile ? 20 : 30,
     marginBottom: isMobile ? 40 : 35,
+    style: {
+      fontSize: "13px",
+      fontWeight: "600"
+    },
     x: {
       label: "Employment (jobs)",
       grid: true,
@@ -350,6 +366,10 @@ function createGrowthChart(width) {
     marginLeft: isMobile ? 50 : 60,
     marginRight: isMobile ? 20 : 30,
     marginBottom: isMobile ? 45 : 40,
+    style: {
+      fontSize: "16px",
+      fontWeight: "600"
+    },
     x: {
       label: "Year",
       grid: false
@@ -392,7 +412,11 @@ function createCompensationTrendChart(width) {
     height: isMobile ? 280 : 320,
     marginLeft: isMobile ? 55 : 65,
     marginRight: isMobile ? 20 : 30,
-    marginBottom: isMobile ? 45 : 40,
+    marginBottom: isMobile ? 50 : 50,
+    style: {
+      fontSize: "18px",
+      fontWeight: "600"
+    },
     x: {
       label: "Year",
       grid: true

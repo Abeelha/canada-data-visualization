@@ -32,3 +32,36 @@ footer nav a:last-child {
   margin-left: auto !important;
 }
 
+.card h2 {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+}
+
+.card .big {
+  font-size: 2.2rem !important;
+  font-weight: 900 !important;
+}
+
+.card .muted {
+  font-size: 0.95rem !important;
+}
+
+.note {
+  font-size: 0.95rem !important;
+}
+
+svg text[aria-label*="legend"] {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+svg g[aria-label="legend"] text {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.plot-legend text {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
