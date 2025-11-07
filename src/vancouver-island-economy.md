@@ -102,7 +102,7 @@ const viCanadaDiff = currentVIRate - currentCanadaRate;
 </div>
 
 <div class="card">
-  <h2>Unemployment Rate Comparison (Aug - ${currentMonth})</h2>
+  <h2>Three-month Unemployment Rate Comparison (Aug - ${currentMonth})</h2>
   ${resize((width) => createUnemploymentChart(width))}
 </div>
 

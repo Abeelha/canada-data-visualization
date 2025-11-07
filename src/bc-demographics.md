@@ -7,10 +7,9 @@ toc: false
   <div>
     <h1 style="margin: 0 0 0.5rem 0;">British Columbia & Vancouver Demographics</h1>
     <p style="margin: 0; color: var(--theme-foreground-muted);">2021 Census of Population - Comparing BC Province and Vancouver City</p>
+    <p style="margin: 0; color: var(--theme-foreground-muted);"><strong>Data source:</strong> <a href="https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm" target="_blank">Statistics Canada 2021 Census of Population</a> | <strong>Last Updated:</strong> 2025-11-07</p>
   </div>
-  <div class="note" style="text-align: right; font-size: 0.875rem; min-width: 300px;">
-    <strong>Data source:</strong> <a href="https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm" target="_blank">Statistics Canada 2021 Census of Population</a> - Demographic and housing characteristics for British Columbia and Vancouver City
-  </div>
+
 </div>
 
 ```js
@@ -124,12 +123,12 @@ const dwellingData = dwellingTypes.flatMap(type => {
   <div class="card">
     <h2>BC Population</h2>
     <span class="big">${(bcPopulation / 1000000).toFixed(2)}M</span>
-    <span class="muted">2021 Census</span>
+    <span class="muted">2021 Population</span>
   </div>
   <div class="card">
     <h2>Vancouver Population</h2>
     <span class="big">${(vancouverPopulation / 1000).toFixed(0)}K</span>
-    <span class="muted">2021 Census</span>
+    <span class="muted">2021 Population</span>
   </div>
   <div class="card">
     <h2>BC Growth (2016-2021)</h2>

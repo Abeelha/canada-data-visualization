@@ -7,9 +7,7 @@ toc: false
   <div>
     <h1 style="margin: 0 0 0.5rem 0;">Clean Technology Sector - British Columbia</h1>
     <p style="margin: 0; color: var(--theme-foreground-muted);">Employment and compensation trends in environmental and clean technology products (2012-2023)</p>
-  </div>
-  <div class="note" style="text-align: right; font-size: 0.875rem; min-width: 300px;">
-    <strong>Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - British Columbia employment and average annual compensation data for environmental and clean technology products (2012-2023)
+    <p><strong>Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - (2012-2023) | <strong>Last Updated:</strong> 2025-11-07</p>
   </div>
 </div>
 
