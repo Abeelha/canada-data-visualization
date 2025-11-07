@@ -7,8 +7,7 @@ toc: false
   <div>
     <h1 style="margin: 0 0 0.5rem 0;">Clean Technology Sector - British Columbia</h1>
     <p style="margin: 0; color: var(--theme-foreground-muted);">Employment and compensation trends in environmental and clean technology products (2012-2023)</p>
-    <p style="margin: 0; color: var(--theme-foreground-muted);"><strong>| Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - (2012-2023) </p>
-    <p style="margin: 0; color: var(--theme-foreground-muted);">| <strong>Last Updated: </strong>2025-11-07</p>
+    <p style="margin: 0; color: var(--theme-foreground-muted);"><strong>Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> | <strong>Last Updated: </strong>2025-11-07</p>
   </div>
 </div>
 

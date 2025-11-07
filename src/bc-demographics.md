@@ -7,8 +7,7 @@ toc: false
   <div>
     <h1 style="margin: 0 0 0.5rem 0;">British Columbia & Vancouver Demographics</h1>
     <p style="margin: 0; color: var(--theme-foreground-muted);">2021 Census of Population - Comparing BC Province and Vancouver City</p>
-    <p style="margin: 0; color: var(--theme-foreground-muted);"><strong>| Data source:</strong> <a href="https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm" target="_blank">Statistics Canada 2021 Census of Population</a></p>
-    <p style="margin: 0; color: var(--theme-foreground-muted);">  | <strong>Last Updated:</strong> 2025-11-07</p>
+    <p style="margin: 0; color: var(--theme-foreground-muted);"><strong>Data source:</strong> <a href="https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm" target="_blank">Statistics Canada 2021 Census of Population</a> | <strong>Last Updated:</strong> 2025-11-07</p>
   </div>
 
 </div>
