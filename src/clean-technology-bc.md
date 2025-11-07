@@ -5,7 +5,7 @@ toc: false
 
 # Clean Technology Sector - British Columbia
 
-Employment in environmental and clean technology products (2012-2023)
+Employment and compensation trends in environmental and clean technology products (2012-2023)
 
 ```js
 const cleanTechRaw = FileAttachment("data/clean-tech-cleaned.csv").csv({typed: true});
@@ -55,6 +55,49 @@ years.forEach(year => {
 });
 
 const latestYear = d3.max(years);
+
+// Load compensation data
+const compensationRaw = FileAttachment("data/clean-tech-compensation-cleaned.csv").csv({typed: true});
+const compensationData = (await compensationRaw).map(row => {
+  const category = row["Goods and services (products)"];
+  if (!category) return null;
+
+  const parseValue = (val) => {
+    const str = String(val || "0").replace(/,/g, '').replace('p', '').trim();
+    if (str === ".." || str === "") return 0;
+    return parseFloat(str) || 0;
+  };
+
+  return {
+    category: category,
+    y2012: parseValue(row["2012"]),
+    y2013: parseValue(row["2013"]),
+    y2014: parseValue(row["2014"]),
+    y2015: parseValue(row["2015"]),
+    y2016: parseValue(row["2016"]),
+    y2017: parseValue(row["2017"]),
+    y2018: parseValue(row["2018"]),
+    y2019: parseValue(row["2019"]),
+    y2020: parseValue(row["2020"]),
+    y2021: parseValue(row["2021"]),
+    y2022: parseValue(row["2022"]),
+    y2023: parseValue(row["2023"])
+  };
+}).filter(d => d !== null && (d.y2023 > 0 || d.category.includes("Total")));
+
+const compensationTimeSeriesData = [];
+years.forEach(year => {
+  compensationData.forEach(d => {
+    const value = d[`y${year}`];
+    if (!isNaN(value) && value > 0) {
+      compensationTimeSeriesData.push({
+        year: year,
+        category: d.category,
+        compensation: value
+      });
+    }
+  });
+});
 ```
 
 ```js
@@ -66,6 +109,7 @@ const selectedYear = view(Inputs.select(years, {
 
 ```js
 const yearData = timeSeriesData.filter(d => d.year === selectedYear);
+const yearCompensationData = compensationTimeSeriesData.filter(d => d.year === selectedYear);
 
 const totalEmployment = yearData
   .filter(d => d.category === "Total, environmental and clean technology products")
@@ -85,6 +129,26 @@ const prevTotal = prevYearData
   .reduce((sum, d) => sum + d.employment, 0);
 
 const yoyGrowth = prevTotal > 0 ? ((totalEmployment - prevTotal) / prevTotal * 100) : 0;
+
+// Compensation calculations
+const avgCompensation = yearCompensationData
+  .filter(d => d.category === "Total, environmental and clean technology products")
+  .reduce((sum, d) => sum + d.compensation, 0);
+
+const avgEnvCompensation = yearCompensationData
+  .filter(d => d.category === "Total, environmental products")
+  .reduce((sum, d) => sum + d.compensation, 0);
+
+const avgCleanTechCompensation = yearCompensationData
+  .filter(d => d.category === "Total, clean technology products")
+  .reduce((sum, d) => sum + d.compensation, 0);
+
+const prevYearCompensationData = compensationTimeSeriesData.filter(d => d.year === selectedYear - 1);
+const prevAvgCompensation = prevYearCompensationData
+  .filter(d => d.category === "Total, environmental and clean technology products")
+  .reduce((sum, d) => sum + d.compensation, 0);
+
+const compensationGrowth = prevAvgCompensation > 0 ? ((avgCompensation - prevAvgCompensation) / prevAvgCompensation * 100) : 0;
 ```
 
 <div class="grid grid-cols-4">
@@ -104,29 +168,59 @@ const yoyGrowth = prevTotal > 0 ? ((totalEmployment - prevTotal) / prevTotal * 1
     <span class="muted">${((cleanTech/totalEmployment)*100).toFixed(1)}% of total</span>
   </div>
   <div class="card">
-    <h2>YoY Growth</h2>
+    <h2>Employment Growth</h2>
     <span class="big ${yoyGrowth >= 0 ? 'green' : 'red'}">${yoyGrowth >= 0 ? '+' : ''}${yoyGrowth.toFixed(1)}%</span>
     <span class="muted">vs ${selectedYear - 1}</span>
   </div>
 </div>
 
-<div class="grid grid-cols-3">
+<div class="grid grid-cols-4">
+  <div class="card">
+    <h2>Avg Compensation</h2>
+    <span class="big">$${(avgCompensation / 1000).toFixed(0)}K</span>
+    <span class="muted">Annual salary (${selectedYear})</span>
+  </div>
+  <div class="card">
+    <h2>Environmental Avg</h2>
+    <span class="big">$${(avgEnvCompensation / 1000).toFixed(0)}K</span>
+    <span class="muted">${((avgEnvCompensation - avgCompensation) >= 0 ? '+' : ''}$${((avgEnvCompensation - avgCompensation) / 1000).toFixed(1)}K vs total</span>
+  </div>
+  <div class="card">
+    <h2>Clean Tech Avg</h2>
+    <span class="big">$${(avgCleanTechCompensation / 1000).toFixed(0)}K</span>
+    <span class="muted">${((avgCleanTechCompensation - avgCompensation) >= 0 ? '+' : ''}$${((avgCleanTechCompensation - avgCompensation) / 1000).toFixed(1)}K vs total</span>
+  </div>
+  <div class="card">
+    <h2>Salary Growth</h2>
+    <span class="big ${compensationGrowth >= 0 ? 'green' : 'red'}">${compensationGrowth >= 0 ? '+' : ''}${compensationGrowth.toFixed(1)}%</span>
+    <span class="muted">vs ${selectedYear - 1}</span>
+  </div>
+</div>
+
+<div class="grid grid-cols-2">
   <div class="card">
     <h2>Employment Trends (2012-${selectedYear})</h2>
     ${resize((width) => createTrendChart(width))}
   </div>
   <div class="card">
-    <h2>Environmental vs Clean Tech (${selectedYear})</h2>
+    <h2>Compensation Trends (2012-${selectedYear})</h2>
+    ${resize((width) => createCompensationTrendChart(width))}
+  </div>
+</div>
+
+<div class="grid grid-cols-2">
+  <div class="card">
+    <h2>Environmental vs Clean Tech Employment (${selectedYear})</h2>
     ${resize((width) => createCategoryChart(width))}
   </div>
   <div class="card">
-    <h2>Year-over-Year Growth Rate</h2>
+    <h2>Year-over-Year Employment Growth</h2>
     ${resize((width) => createGrowthChart(width))}
   </div>
 </div>
 
 <div class="note">
-**Data source:** <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - British Columbia employment data for environmental and clean technology products (2012-2023)
+**Data source:** <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - British Columbia employment and average annual compensation data for environmental and clean technology products (2012-2023)
 </div>
 
 ```js
@@ -273,6 +367,62 @@ function createGrowthChart(width) {
         fill: d => d.growth >= 0 ? "#059669" : "#dc2626",
         tip: true,
         title: d => `${d.year}: ${d.growth >= 0 ? '+' : ''}${d.growth.toFixed(1)}%`
+      })
+    ]
+  });
+}
+```
+
+```js
+function createCompensationTrendChart(width) {
+  const isMobile = width < 640;
+
+  const envCompByYear = compensationTimeSeriesData
+    .filter(d => d.category === "Total, environmental products" && d.year <= selectedYear)
+    .map(d => ({...d, series: "Environmental Products"}));
+
+  const cleanTechCompByYear = compensationTimeSeriesData
+    .filter(d => d.category === "Total, clean technology products" && d.year <= selectedYear)
+    .map(d => ({...d, series: "Clean Technology"}));
+
+  const combinedCompData = [...envCompByYear, ...cleanTechCompByYear];
+
+  return Plot.plot({
+    width,
+    height: isMobile ? 280 : 320,
+    marginLeft: isMobile ? 55 : 65,
+    marginRight: isMobile ? 20 : 30,
+    marginBottom: isMobile ? 45 : 40,
+    x: {
+      label: "Year",
+      grid: true
+    },
+    y: {
+      label: "Average Annual Compensation ($)",
+      grid: true,
+      tickFormat: d => "$" + (d/1000).toFixed(0) + "K"
+    },
+    color: {
+      domain: ["Environmental Products", "Clean Technology"],
+      range: ["#0ea5e9", "#059669"],
+      legend: true
+    },
+    marks: [
+      Plot.line(combinedCompData, {
+        x: "year",
+        y: "compensation",
+        stroke: "series",
+        strokeWidth: 2.5,
+        curve: "catmull-rom"
+      }),
+      Plot.dot(combinedCompData, {
+        x: "year",
+        y: "compensation",
+        stroke: "series",
+        r: 3,
+        fill: "transparent",
+        tip: true,
+        title: d => `${d.series}\n${d.year}: $${d.compensation.toLocaleString()}`
       })
     ]
   });
