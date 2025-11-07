@@ -7,7 +7,8 @@ toc: false
   <div>
     <h1 style="margin: 0 0 0.5rem 0;">Clean Technology Sector - British Columbia</h1>
     <p style="margin: 0; color: var(--theme-foreground-muted);">Employment and compensation trends in environmental and clean technology products (2012-2023)</p>
-    <p><strong>Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - (2012-2023) | <strong>Last Updated:</strong> 2025-11-07</p>
+    <p style="margin: 0; color: var(--theme-foreground-muted);"><strong>| Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610068101" target="_blank">Statistics Canada Table 36-10-0681-01</a> - (2012-2023) </p>
+    <p style="margin: 0; color: var(--theme-foreground-muted);">| <strong>Last Updated: </strong>2025-11-07</p>
   </div>
 </div>
 
@@ -163,47 +164,47 @@ const cleanTechCompDiffFormatted = `${cleanTechCompDiff >= 0 ? '+' : ''}$${(Math
 
 <div class="grid grid-cols-4">
   <div class="card">
-    <h2>Total Employment</h2>
+    <h2>Total Sector Employment</h2>
     <span class="big">${(totalEmployment / 1000).toFixed(1)}K</span>
-    <span class="muted">Jobs (${selectedYear})</span>
+    <span class="muted">Total jobs in ${selectedYear}</span>
   </div>
   <div class="card">
-    <h2>Environmental</h2>
+    <h2>Environmental Products Jobs</h2>
     <span class="big">${(envProducts / 1000).toFixed(1)}K</span>
-    <span class="muted">${((envProducts/totalEmployment)*100).toFixed(1)}% of total</span>
+    <span class="muted">${((envProducts/totalEmployment)*100).toFixed(1)}% of sector</span>
   </div>
   <div class="card">
-    <h2>Clean Technology</h2>
+    <h2>Clean Technology Jobs</h2>
     <span class="big">${(cleanTech / 1000).toFixed(1)}K</span>
-    <span class="muted">${((cleanTech/totalEmployment)*100).toFixed(1)}% of total</span>
+    <span class="muted">${((cleanTech/totalEmployment)*100).toFixed(1)}% of sector</span>
   </div>
   <div class="card">
-    <h2>Employment Growth</h2>
+    <h2>Year-over-Year Jobs Growth</h2>
     <span class="big ${yoyGrowth >= 0 ? 'green' : 'red'}">${yoyGrowth >= 0 ? '+' : ''}${yoyGrowth.toFixed(1)}%</span>
-    <span class="muted">vs ${selectedYear - 1}</span>
+    <span class="muted">Change from ${selectedYear - 1}</span>
   </div>
 </div>
 
 <div class="grid grid-cols-4">
   <div class="card">
-    <h2>Avg Compensation</h2>
+    <h2>Overall Average Salary</h2>
     <span class="big">$${(avgCompensation / 1000).toFixed(0)}K</span>
-    <span class="muted">Annual salary (${selectedYear})</span>
+    <span class="muted">Sector average in ${selectedYear}</span>
   </div>
   <div class="card">
-    <h2>Environmental Avg</h2>
+    <h2>Environmental Products Salary</h2>
     <span class="big">$${(avgEnvCompensation / 1000).toFixed(0)}K</span>
-    <span class="muted">${envCompDiffFormatted} vs total</span>
+    <span class="muted">${envCompDiffFormatted} vs sector avg</span>
   </div>
   <div class="card">
-    <h2>Clean Tech Avg</h2>
+    <h2>Clean Technology Salary</h2>
     <span class="big">$${(avgCleanTechCompensation / 1000).toFixed(0)}K</span>
-    <span class="muted">${cleanTechCompDiffFormatted} vs total</span>
+    <span class="muted">${cleanTechCompDiffFormatted} vs sector avg</span>
   </div>
   <div class="card">
-    <h2>Salary Growth</h2>
+    <h2>Year-over-Year Salary Growth</h2>
     <span class="big ${compensationGrowth >= 0 ? 'green' : 'red'}">${compensationGrowth >= 0 ? '+' : ''}${compensationGrowth.toFixed(1)}%</span>
-    <span class="muted">vs ${selectedYear - 1}</span>
+    <span class="muted">Change from ${selectedYear - 1}</span>
   </div>
 </div>
 

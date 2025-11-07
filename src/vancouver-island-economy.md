@@ -7,9 +7,8 @@ toc: false
   <div>
     <h1 style="margin: 0 0 0.5rem 0;">Vancouver Island & Coast - Unemployment Rate</h1>
     <p style="margin: 0; color: var(--theme-foreground-muted);">Three-month moving average unemployment rate (August - December 2024)</p>
-  </div>
-  <div class="note" style="text-align: right; font-size: 0.875rem; min-width: 300px;">
-    <strong>Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410038701" target="_blank">Statistics Canada Table 14-10-0387-01</a> - Three-month moving average unemployment rates for Vancouver Island & Coast compared to BC and Canada (August - December 2024)
+    <p style="margin: 0; color: var(--theme-foreground-muted);"><strong>| Data source:</strong> <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410038701" target="_blank">Statistics Canada Table 14-10-0387-01</a></p>
+    <p style="margin: 0; color: var(--theme-foreground-muted);">| <strong>Last updated:2025-11-07</strong></p>
   </div>
 </div>
 
