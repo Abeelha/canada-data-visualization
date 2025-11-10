@@ -29,7 +29,7 @@ toc: false
 
 ## About This Project
 
-This visualization project provides interactive dashboards for analyzing economic and demographic data from British Columbia, Canada. The data is sourced from Statistics Canada and focuses on employment trends, clean technology sectors, regional unemployment rates, and census demographics.
+This visualization project provides dashboards for analyzing economic and demographic data from British Columbia, Canada. The data is sourced from Statistics Canada and focuses on employment trends, clean technology sectors, regional unemployment rates, and census demographics.
 
 ### Data Sources
 
@@ -39,10 +39,8 @@ This visualization project provides interactive dashboards for analyzing economi
 
 ### Key Features
 
-- **Interactive Filters**: Use dropdown menus to explore data across different time periods
 - **Comparative Analysis**: View regional data compared to provincial and national averages
 - **Demographic Insights**: Compare population, age distribution, housing, and income between BC and Vancouver
-- **Responsive Design**: Dashboards adapt to different screen sizes for optimal viewing
 
 <style>
 
